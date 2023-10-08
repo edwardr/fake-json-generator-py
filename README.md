@@ -1,7 +1,7 @@
 ## Overview
-Simple Python CLI tool to create JSON files with dummy data to use for testing. Uses dataclasses to define schemas so it can be easily customized to create new data exports.
+Simple Python CLI tool to create JSON files with dummy data to use for testing. Uses dataclasses to define schemas so it can be easily customized to create new data exports or modify existing ones.
 
-Uses Faker to generate the data as defined in the schema.
+Uses Faker to generate most of the data as defined in the schema.
 
 ## Requirements
 Python 3.7+
@@ -21,7 +21,7 @@ Will generate a JSON file with 500 users with the default filename of "fakeUser-
 
 ## Schemas
 
-Check the `modules/schema.py` file to see the default schemas of User, Blog, and Product. You can add any new schemas to this file and use the class name as the "Type" when running the generator.
+Check the `modules/schema.py` file to see the default schemas of User, Blog, and Product. You can add any new schemas to this file and use the class name as the "Type" when running the generator. You can also modify the existing schemas as needed if you want to tweak the data.
 
 ```
 @dataclass_json
