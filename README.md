@@ -1,15 +1,15 @@
-# Overview
+## Overview
 Simple Python tool to create JSON files with dummy data to use for testing. Uses dataclasses to define schemas so it can be easily customized to create new data exports.
 
 Uses Faker to generate the data as defined in the schema.
 
-# Requirements
+## Requirements
 Python 3.7+
 
-# Install Dependencies
+## Install Dependencies
 `pip install faker dataclasses-json`
 
-# Usage
+## Usage
 
 `python generator.py --type [TYPE] --count [COUNT] [--output FILENAME]`
 
@@ -19,7 +19,7 @@ The example:
 
 Will generate a JSON file with 500 users with the default filename of "fakeUser-[timestamp].json"
 
-# Schemas
+## Schemas
 
 Check the `modules/schema.py` file to see the default schemas of User, Blog, and Product. You can add any new schemas to this file and use the class name as the "Type" when running the generator.
 
