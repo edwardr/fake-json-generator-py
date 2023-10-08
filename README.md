@@ -1,5 +1,5 @@
 ## Overview
-Simple Python tool to create JSON files with dummy data to use for testing. Uses dataclasses to define schemas so it can be easily customized to create new data exports.
+Simple Python CLI tool to create JSON files with dummy data to use for testing. Uses dataclasses to define schemas so it can be easily customized to create new data exports.
 
 Uses Faker to generate the data as defined in the schema.
 
