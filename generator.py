@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import json, argparse, time
 import modules.schema as schema
 
